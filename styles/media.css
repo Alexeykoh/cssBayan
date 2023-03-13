@@ -6,6 +6,9 @@
     .meme__image {
         object-fit: contain;
     }
+    .title{
+        font-size: .8rem;
+    }
 }
 
 @media (min-width: 767px) {
@@ -16,11 +19,20 @@
     .meme__image {
         object-fit: contain;
     }
+    .title{
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 1023px) {
     main {
         max-width: 640px;
+    }
+    .title{
+        font-size: 1.2rem;
+    }
+    .meme__image {
+        margin-top: 1rem;
     }
 
 }
